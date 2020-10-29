@@ -3,6 +3,8 @@ package com.example.sistemukm;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,5 +12,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+    }
+
+    public void goToDashboard(View view) {
+        Intent intent = new Intent(MainActivity.this, Dashboard.class);
+        startActivity(intent);
+    }
+
+    public void goToVerify(View view) {
     }
 }
