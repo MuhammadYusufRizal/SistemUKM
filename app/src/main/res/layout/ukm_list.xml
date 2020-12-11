@@ -20,19 +20,19 @@
             android:id="@+id/ukm1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="UKM 1" />
+            android:text="Nama UKM : Dinus Badminton Club" />
 
         <TextView
             android:id="@+id/ukm2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="UKM 2" />
+            android:text="Ketua : Arief Fadhillah" />
 
         <TextView
             android:id="@+id/ukm3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="UKM 3" />
+            android:text="Latihan UKM Bulutangkis Udinus biasa di hari Senin & Rabu untuk kelompok Atlit, dan Sabtu untuk seluruh anggota UKM" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

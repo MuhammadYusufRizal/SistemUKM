@@ -4,31 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardview"
+
+
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:cardCornerRadius="8dp"
-        tools:ignore="MissingConstraints">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp">
-
-            <TextView
-                android:id="@+id/tv_nama"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:text="manggis"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="#000000"
-                android:textStyle="bold" />
-
-        </RelativeLayout>
-
-    </androidx.cardview.widget.CardView>
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="40dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
