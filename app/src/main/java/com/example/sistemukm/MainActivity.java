@@ -14,11 +14,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.login);
     }
 
-    public void goToDashboard(View view) {
-        Intent intent = new Intent(MainActivity.this, Dashboard.class);
+    public void loginUKM(View view) {
+        Intent intent = new Intent(MainActivity.this, LoginUKM.class);
         startActivity(intent);
     }
 
-    public void goToVerify(View view) {
+    public void loginMahasiswa(View view) {
+        Intent intent = new Intent(MainActivity.this, LoginMahasiswa.class);
+        startActivity(intent);
     }
 }

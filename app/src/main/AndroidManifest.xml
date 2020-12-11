@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SistemUKM">
-        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".Dasboard"></activity>
+        <activity android:name=".UKMList" />
+        <activity android:name=".LoginMahasiswa" />
+        <activity
+            android:name=".ui.login.LoginMahasiswa"
+            android:label="@string/title_activity_login_mahasiswa" />
+        <activity android:name=".LoginUKM" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
