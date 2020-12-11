@@ -6,4 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".UKMList">
 
+    <LinearLayout
+        android:id="@+id/ukmList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">>
+
+        <TextView
+            android:id="@+id/ukm1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UKM 1" />
+
+        <TextView
+            android:id="@+id/ukm2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UKM 2" />
+
+        <TextView
+            android:id="@+id/ukm3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UKM 3" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
